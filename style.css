@@ -92,3 +92,19 @@ li.purchased span {
   align-items: center;
   gap: 12px;
 }
+
+
+.remove-btn {
+  background-color: #e53935;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.remove-btn:hover {
+  background-color: #c62828;
+}
