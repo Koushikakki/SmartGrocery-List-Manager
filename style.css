@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  padding: 40px 20px;
+}
+
+
+.container {
+  max-width: 600px;
+  background: #ffffff;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 25px;
+}
+
+
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+form input, form button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #66bb6a;
+}
+
+form button {
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+form button:hover {
+  background-color: #2e7d32;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: background 0.2s;
+}
+
+li:hover {
+  background-color: #f1f8e9;
+}
+
+li.purchased span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.remove-btn {
+  background-color: #e53935;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.remove-btn:hover {
+  background-color: #c62828;
+}
+
+
+.summary {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.summary p {
+  margin: 10px 0;
+}
