@@ -108,3 +108,15 @@ li.purchased span {
 .remove-btn:hover {
   background-color: #c62828;
 }
+
+
+.summary {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.summary p {
+  margin: 10px 0;
+}
